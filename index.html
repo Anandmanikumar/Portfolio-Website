@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anandmani Kumar - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
+<body style="background-color: #00aaff ;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: medium; ">
     <header>
         <h1>Anandmani Kumar</h1>
         <p>Computer Science and Data Analysis | Aspiring Data Scientist</p>
@@ -23,19 +24,38 @@
     <section id="about" class="about">
         <h2>About Me</h2>
         <img src="images/anand.jpeg" alt="Anandmani Kumar" height="250">
-        <p>
-            Hello, I'm Anandmani Kumar! Welcome to my portfolio! I'm a 2nd-year BSc Computer Science and Data Analysis 
-            student at IIT Patna. With a strong foundation in machine learning, data analysis, and programming, I’m passionate 
-            about solving complex problems using data-driven approaches. 
+        <p><small>Hello, I'm Anandmani Kumar!</small>
+            <mark> Welcome to my portfolio!</mark> I'm a 2nd-year BSc Computer Science and Data Analysis student at IIT Patna. With a
+            strong foundation in machine learning, data analysis, and programming, I’m passionate about solving complex
+            problems using data-driven approaches.
+
+            My projects range from implementing machine learning models to developing innovative applications in Python,
+            showcasing my skills in libraries like NumPy, Pandas, and Scikit-learn. I’ve also explored cutting-edge
+            technologies like NLP Cloud and object-oriented programming for building practical solutions.
+
+            Beyond academics, I'm an active member of the Training and Placement Cell at IIT Patna, where I contribute
+            to data cleaning and integration processes. My journey also includes experience in cricket, where I proudly
+            represented my district at the U19 level.
         </p>
     </section>
 
     <section id="education" class="education">
         <h2>Education</h2>
+        <div class="education-item" style="background-color: #40E0D0;">
+            <h3>Indian Institute of Technology (IIT), Patna</h3>
+            <p><strong>Degree:</strong> BSc in Computer Science and Data Analysis</p>
+            <p><strong>Year:</strong> 2023 - Present</p>
+            <p><strong>Key Achievements:</strong></p>
+            <ul>
+                <li>1st Semester <b>SPI: 7.74, CPI: 7.74</b></li>
+                <li>2nd Semester <strong>SPI: 9.36, CPI: 8.56</strong></li>
+                <li>3rd Semester <b>SPI: 9.74, CPI: 8.95</b></li>
+            </ul>
+        </div>
         <div class="education-item">
-            <h3>Indian Institute of Technology, Patna</h3>
-            <p>B.Sc. in Computer Science and Data Analysis (2023 - Present)</p>
-            <p>CPI: 8.95</p>
+            <h3>U19 Cricket Experience</h3>
+            <p><strong>Represented:</strong> Darbhanga District</p>
+            <p><strong>Years:</strong> 2019 - 2022</p>
         </div>
     </section>
 
@@ -43,15 +63,82 @@
         <h2>Projects</h2>
         <div class="project-item">
             <h3>Face Recognition Attendance System</h3>
-            <p>Developed an automated attendance system using face recognition technology.</p>
+            <p><strong>Objective:</strong> Automate attendance tracking using facial recognition.</p>
+            <p><strong>Technologies:</strong> OpenCV, NumPy, Python, Face Recognition Library.</p>
+            <p><strong>Features:</strong>
+                <ul>
+                    <li>Captures and detects faces in real-time.</li>
+                    <li>Compares detected faces with stored images to mark attendance.</li>
+                    <li>Saves attendance data in CSV format.</li>
+                </ul>
+            </p>
         </div>
+        
         <div class="project-item">
-            <h3>Chatbot</h3>
-            <p>Created a chatbot capable of answering user queries with natural language processing.</p>
+            <h3>Chatbot with NLP</h3>
+            <p><strong>Objective:</strong> Build an interactive chatbot capable of answering user queries.</p>
+            <p><strong>Technologies:</strong> Python, NLTK, NLP Cloud API, Transformers.</p>
+            <p><strong>Features:</strong>
+                <ul>
+                    <li>Understands user queries using NLP.</li>
+                    <li>Retrieves relevant answers using a knowledge base.</li>
+                    <li>Implements Named Entity Recognition (NER) for better responses.</li>
+                </ul>
+            </p>
         </div>
+        
         <div class="project-item">
-            <h3>NLP-based Application</h3>
-            <p>Developed an application integrating NLP Cloud for Named Entity Recognition, Sentiment Analysis, and Code Generation.</p>
+            <h3>Portfolio Analysis Tool</h3>
+            <p><strong>Objective:</strong> Analyze a two-stock portfolio’s risk and return.</p>
+            <p><strong>Technologies:</strong> Python, Pandas, NumPy, Matplotlib.</p>
+            <p><strong>Features:</strong>
+                <ul>
+                    <li>Computes individual stock returns and risks (standard deviation).</li>
+                    <li>Calculates covariance between stocks.</li>
+                    <li>Determines portfolio expected return and risk based on weights.</li>
+                    <li>Visualizes diversification benefits.</li>
+                </ul>
+            </p>
+        </div>
+        
+        <div class="project-item">
+            <h3>Gradient Descent Visualization for Linear Regression</h3>
+            <p><strong>Objective:</strong> Demonstrate how gradient descent optimizes linear regression models.</p>
+            <p><strong>Technologies:</strong> Python, Matplotlib, SciPy, NumPy.</p>
+            <p><strong>Features:</strong>
+                <ul>
+                    <li>Plots cost function convergence.</li>
+                    <li>Shows how learning rate affects convergence speed.</li>
+                    <li>Visualizes step-wise parameter updates.</li>
+                </ul>
+            </p>
+        </div>
+        
+        <div class="project-item">
+            <h3>WHO COVID-19 Cases Analysis</h3>
+            <p><strong>Objective:</strong> Analyze COVID-19 case trends worldwide.</p>
+            <p><strong>Technologies:</strong> Python, Pandas, Matplotlib, Seaborn.</p>
+            <p><strong>Features:</strong>
+                <ul>
+                    <li>Cleaned and preprocessed WHO COVID-19 dataset.</li>
+                    <li>Performed trend analysis on cases and deaths.</li>
+                    <li>Created heatmaps and time-series visualizations.</li>
+                </ul>
+            </p>
+        </div>
+        
+        <div class="project-item">
+            <h3>NLP-Based Application</h3>
+            <p><strong>Objective:</strong> Develop an NLP-powered tool for Named Entity Recognition (NER), Sentiment Analysis, and Code Generation.</p>
+            <p><strong>Technologies:</strong> Python, NLP Cloud API, Flask, Pandas.</p>
+            <p><strong>Features:</strong>
+                <ul>
+                    <li>Implements user authentication for secure access.</li>
+                    <li>Provides NER and sentiment analysis functionalities.</li>
+                    <li>Generates code snippets based on user input.</li>
+                    <li>Future Scope: Text summarization, keyword extraction.</li>
+                </ul>
+            </p>
         </div>
         <a href="https://github.com/anandmani123" class="btn">View More on GitHub</a>
     </section>
